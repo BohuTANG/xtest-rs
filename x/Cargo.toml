@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Diem Association <opensource@diem.com>"]
 description = "Diem extended cargo tasks"
 edition = "2018"
-publish = false
 license = "Apache-2.0"
 
 [dependencies]
@@ -26,5 +25,5 @@ globset = "0.4.6"
 regex = "1.4.3"
 rayon = "1.5.0"
 indexmap = "1.6.1"
-x-core = { path = "../x-core" }
-x-lint = { path = "../x-lint" }
+x-core = { version="0.1.0", path = "../x-core" }
+x-lint = { version="0.1.0", path = "../x-lint" }
