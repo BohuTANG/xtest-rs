@@ -21,7 +21,7 @@ use std::{
 pub mod build_args;
 pub mod selected_package;
 
-const RUST_TOOLCHAIN_VERSION: &str = include_str!("../../../rust-toolchain");
+const RUST_TOOLCHAIN_VERSION: &str = include_str!("rust-toolchain");
 const RUSTUP_TOOLCHAIN: &str = "RUSTUP_TOOLCHAIN";
 const CARGO: &str = "CARGO";
 const SECRET_ENVS: &[&str] = &["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"];
